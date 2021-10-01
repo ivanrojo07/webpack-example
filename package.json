@@ -1,0 +1,21 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Curso webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:multi": "webpack --config ./multi-entry-points/webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "aprender"
+  ],
+  "author": "Ivan Rojo <ivanrojo07@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.2"
+  }
+}
